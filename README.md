@@ -19,7 +19,7 @@ Designed for startup founders, investors, and attorneys working with early-stage
 
 ## Installation
 
-### Any AI Agents (as skill)
+### Any AI Agents
 
 **Option 1** — Install from GitHub:
 
@@ -40,13 +40,6 @@ git clone https://github.com/skala-io/legal-skills.git
 ```
 
 Copy the skill folders from `skills/` into your project's `.claude/skills/` directory or into `~/.claude/skills/` to make them available across all projects.
-
-### Claude Code / Cowork (as plugin)
-
-```
-/plugin marketplace add skala-io/legal-skills
-/plugin install legal-skills@skala-io-legal-skills
-```
 
 ### Claude Web / Desktop
 
