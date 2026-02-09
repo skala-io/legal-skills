@@ -43,8 +43,6 @@ Copy the skill folders from `skills/` into your project's `.claude/skills/` dire
 
 ### Claude Code / Cowork (as plugin)
 
-Requires Claude Code 1.0.33+.
-
 ```
 /plugin marketplace add skala-io/legal-skills
 /plugin install legal-skills@skala-io-legal-skills
