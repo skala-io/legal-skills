@@ -19,34 +19,14 @@ Designed for startup founders, investors, and attorneys working with early-stage
 
 ## Installation
 
-### Any AI Agents
-
-**Option 1** — Install from GitHub:
-
-```bash
-npx skills add skala-io/legal-skills
-```
-
-**Option 2** — Ask AI directly in the chat:
-
-```
-Install skills from https://github.com/skala-io/legal-skills
-```
-
-**Option 3** — Manual setup:
-
-```bash
-git clone https://github.com/skala-io/legal-skills.git
-```
-
-Copy the skill folders from `skills/` into your project's `.claude/skills/` directory or into `~/.claude/skills/` to make them available across all projects.
-
-### Claude Web / Desktop
-
-1. Download the `.zip` archive of the desired skill.
-2. Go to **Settings** → **Capabilities** → **Skills**.
-3. Upload the `.zip` archive.
-4. The skill will appear in your skills list — toggle it on to enable.
+| Platform | Method | Instructions |
+|----------|--------|--------------|
+| **Any AI Agent** | CLI (npx) | `npx skills add skala-io/legal-skills` |
+| **Any AI Agent** | Ask AI | Prompt AI to `Install skills from https://github.com/skala-io/legal-skills` |
+| **Any AI Agent** | Manual | `git clone https://github.com/skala-io/legal-skills.git` — then copy skill folders from `skills/` into your project's `.claude/skills/` or `~/.claude/skills/` for global access. |
+| **Claude Code** | Claude CLI | `/plugin marketplace add skala-io/ai-plugins` → `/plugin install legal-skills@skala-io-plugins` |
+| **Claude Cowork** | App UI | 1. Add the marketplace using `https://github.com/skala-io/ai-plugins.git`<br>2. Browse the marketplace and install the plugin. |
+| **Claude Web / Desktop** | App UI | 1. Download the `.zip` of the desired skill.<br>2. Go to **Settings → Capabilities → Skills**.<br>3. Upload the `.zip`.<br>4. Toggle the skill on. |
 
 ## Usage
 
