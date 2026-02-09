@@ -1,0 +1,23 @@
+{
+    "name": "legal-skills",
+    "description": "Curated legal skills built by lawyers.",
+    "version": "1.0.0",
+    "author": {
+        "name": "Skala.io",
+        "email": "roman@skala.io",
+        "url": "https://skala.io/"
+    },
+    "homepage": "https://skala.io/legal-skills",
+    "repository": "https://github.com/skala-io/legal-skills",
+    "license": "Apache-2.0",
+    "keywords": [
+        "legal",
+        "lawyer",
+        "saft",
+        "safe",
+        "startup",
+        "skala.io",
+        "incorporation",
+        "company registration"
+    ]
+}

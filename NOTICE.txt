@@ -1,0 +1,11 @@
+legal-skills
+
+Copyright 2026 Skala Inc. (https://skala.io)
+
+This project includes work created by Skala Inc.
+
+Original repository: https://github.com/skala-io/legal-skills
+
+If you create a derivative work based on this project,
+you must retain this NOTICE file and provide attribution
+to the original author.
