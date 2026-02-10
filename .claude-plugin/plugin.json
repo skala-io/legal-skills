@@ -20,5 +20,5 @@
         "incorporation",
         "company registration"
     ],
-    "skills": ["skills/"]
+    "skills": ["./skills/"]
 }
