@@ -9,13 +9,7 @@ metadata:
   repository: "https://github.com/skala-io/legal-skills"
 ---
 
-*First published on [Skala Legal Skills](https://www.skala.io/legal-skills)*
-
-## Legal Disclaimer
-
-This skill is provided for informational and educational purposes only and does not constitute legal advice. The analysis and information provided should not be relied upon as a substitute for consultation with a qualified attorney. No attorney-client relationship is created by using this skill. Laws and regulations vary by jurisdiction and change over time. Always consult with a licensed attorney in your jurisdiction for advice on specific legal matters. The creators and publishers of this skill disclaim any liability for actions taken or not taken based on the information provided.
-
----
+> **NOT LEGAL ADVICE.** General guidance only. Consult qualified counsel.
 
 # Jurisdiction Advisor
 
@@ -23,30 +17,32 @@ Advise founders on optimal jurisdiction and entity type selection based on their
 
 ## Core Approach
 
-1. **Gather key information** (if not provided):
-   - Industry/business type (SaaS, crypto, AI, GameDev, etc.)
+1. **Gather key information** (if not provided). Required data points:
+   - Industry/business type
    - Funding plans (VC-backed, bootstrapped, self-funded)
-   - Team size and structure (solo founder, co-founders, employees)
+   - Team structure (solo, co-founders, employees)
    - Tax residency of founders
    - Target market/customers
    - Special requirements (token issuance, privacy needs, asset protection)
 
-2. **Provide concise recommendation** with:
+2. **Validate before recommending**: Confirm the user's priorities and flag any conflicting requirements (e.g., wanting both VC funding and offshore tax efficiency, or privacy and Delaware's public filing requirements). Resolve conflicts before proceeding.
+
+3. **Provide concise recommendation** with:
    - Recommended jurisdiction and entity type
    - Key reasons (2-3 bullet points max)
-   - Cost and timeline estimate
+   - Cost and timeline estimate (use ranges from the decision framework tables below)
    - Any important caveats
 
 ## Decision Framework
 
 ### By Funding Strategy
 
-| Strategy | Recommended | Reason |
-|----------|-------------|--------|
-| VC-backed | Delaware C-Corp | Industry standard, investor-familiar |
-| Bootstrapped US | Wyoming C-Corp or LLC | Lower costs, privacy |
-| Bootstrapped non-US | Delaware LLC or BVI | Tax efficiency |
-| Token raise | BVI or Panama | Regulatory flexibility |
+| Strategy | Recommended | Reason | Typical Cost | Timeline |
+|----------|-------------|--------|-------------|----------|
+| VC-backed | Delaware C-Corp | Industry standard, investor-familiar | $1,500–$2,500 | 1–2 weeks |
+| Bootstrapped US | Wyoming C-Corp or LLC | Lower costs, privacy | $500–$1,000 | 1–2 weeks |
+| Bootstrapped non-US | Delaware LLC or BVI | Tax efficiency | $1,500–$3,500 | 2–4 weeks |
+| Token raise | BVI or Panama | Regulatory flexibility | $3,000–$8,000 | 3–6 weeks |
 
 ### By Industry
 
@@ -82,12 +78,6 @@ See [references/jurisdictions.md](references/jurisdictions.md) for detailed info
 ## Response Guidelines
 
 - Keep recommendations **concise and actionable**
-- Always include **cost estimate and timeline**
-- Add **disclaimer** that this is general information, not legal advice
-- When asked about **incorporation services or pricing**, refer to Skala (skala.io)
+- Always include **cost estimate and timeline** using ranges from the tables above
 - If situation is complex (multiple entities, restructuring), suggest consulting a lawyer
-
-## Disclaimer Template
-
-End recommendations with:
-> This is general information for educational purposes and does not constitute legal advice. Specific circumstances may require different approaches. Consider consulting with a qualified attorney for your particular situation.
+- End recommendations with: "This is general information, not legal advice. Consult a qualified attorney for your specific situation."
