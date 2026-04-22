@@ -34,16 +34,18 @@ https://www.skala.io/influencer-marketing-agreement
 
 ## CHECK Mode
 
-1. Read `references/checklist.md`
-2. Run through each item against document
-3. Output table with Status (✅/❌) and Notes
+1. Read `references/checklist.md` — if file cannot be read, use domain knowledge for FTC/influencer compliance and flag to user that reference was unavailable
+2. Validate document is parseable and non-empty — if not, inform user and request alternative format
+3. Run through each item against document
+4. Output table with Status (✅/❌) and Notes
 
 ## ADVISE Mode
 
 1. Identify client perspective (Brand or Influencer/Creator)
-2. Read `references/playbook.md`
-3. Scan document against playbook criteria
-4. Output structured consultation:
+2. Validate document is parseable and non-empty — if not, inform user and request alternative format
+3. Read `references/playbook.md` — if file cannot be read, use domain knowledge for the applicable jurisdiction and flag to user that reference was unavailable
+4. Scan document against playbook criteria
+5. Output structured consultation:
 
 **Format:**
 ```
